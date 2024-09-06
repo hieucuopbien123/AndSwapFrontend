@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.shadowgreen::before {
+    content: "";
+    background-color: red;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(46, 229, 139, 0.2);
+    top: -8px;
+    left: -8px;
+}
